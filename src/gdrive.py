@@ -22,10 +22,10 @@ def list_files(remote_folder):
         return []
 
 
-def download_googledrive_folder(remote_folder_id):
+def download_file(remote_file_id, fileName):
     try:
-        source = "https://www.googleapis.com/drive/v3/files/%s?alt=media&key=%s" % (remote_folder_id, gdrive_api_key)
-        urllib.request.urlretrieve(source, "audio/audio.mp3")
+        source = "https://www.googleapis.com/drive/v3/files/%s?alt=media&key=%s" % (remote_file_id, gdrive_api_key)
+        urllib.request.urlretrieve(source, os.path.join("audio", fileName + ".mp3"))
 
     except Exception as err:
         print(err)
