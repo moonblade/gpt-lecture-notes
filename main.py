@@ -1,5 +1,6 @@
 from src.logger import get_logger
 from src.gdrive import download_file, list_files
+from src.transcriber import transcribe
 from src.utils import cleanFileName, isDownloaded, isMp3File, isTranscribed
 
 
@@ -15,6 +16,7 @@ def main():
                 if not isDownloaded(fileName):
                     logger.debug(f"Downloading {fileName}")
                     download_file(file["id"], fileName)
+                transcribe(fileName)
             exit()
 
 if __name__ == "__main__":

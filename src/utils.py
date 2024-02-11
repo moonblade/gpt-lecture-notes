@@ -10,16 +10,24 @@ def cleanFileName(fileName):
     return fileName
 
 def isTranscribed(fileName):
-    transcriptionFilePath = os.path.join("transcription", fileName + ".txt")
+    transcriptionFilePath = getTranscription(fileName)
     exists = os.path.exists(transcriptionFilePath)
     logger.debug(f"{transcriptionFilePath} exists: {exists}")
     return exists
+
+def getTranscription(fileName):
+    transcriptionFilePath = os.path.join("transcription", fileName + ".txt")
+    return transcriptionFilePath
+
+def getMp3(fileName):
+    audioFilePath = os.path.join("audio", fileName + ".mp3") 
+    return audioFilePath
 
 def isMp3File(fileName):
     return fileName.endswith(".mp3")
 
 def isDownloaded(fileName):
-    audioFilePath = os.path.join("audio", fileName + ".mp3") 
+    audioFilePath = getMp3(fileName)
     exists = os.path.exists(audioFilePath)
     logger.debug(f"{audioFilePath} exists: {exists}")
     return exists
