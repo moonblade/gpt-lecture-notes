@@ -2,52 +2,53 @@
 
 ## Introduction
 - Appreciation for attendance and punctuality.
-- Focus on sales project details and the role of a consultant.
-- Introduction to new students and acknowledgment of their presence.
+- Overview of the next hour: Detailed discussion on the sales project and the role of a consultant.
 
 ## Goal of a Sales Consultant
 - Utilize knowledge and research skills to evaluate situations and propose actions.
-- Differentiate oneself from other consultants through acumen and the ability to come to conclusions based on comprehensive analysis.
-
-## Sales Project Approach
-- Methodology should not require rethinking for each new problem.
-- Involves agreement or commitment with the client, usually in the form of a statement of work or scope of work.
-- Process includes research and analysis, engagement and implementation, and finally, recommendation and presentation back to the client.
+- Differentiates consultants through their acumen.
+- Involves a commitment with the client, usually formalized in a statement of work or scope of work.
+- Process includes research and analysis, engagement and implementation, and finally, recommendation and presentation.
 
 ## Professionalism
-- Being professional in all aspects of work is crucial.
-- Dress appropriately for client meetings, often at or above client standards.
-- Team presentation should be united and well-rehearsed.
+- Importance of professionalism in every aspect of work.
+- Preparation for virtual meetings and first impressions.
+- Dressing appropriately and presenting a united team front.
 
-## Communication and Teamwork
-- Importance of asking questions and being honest if unsure about the answer.
-- Trust is a key factor in maintaining client relationships.
-- Time management and preparation are essential for success.
+## Team Dynamics
+- Importance of being well-rehearsed and prepared for client meetings.
+- Asking questions and being honest if unsure about the answers.
+- Building trust with clients through honesty and genuine interactions.
 
-## Skills for Consultants
-- Communication skills, analytical skills, and creativity are highlighted as valuable.
-- Understanding of different personality types and how to adapt communication styles is beneficial.
-- Reflecting on one's own strengths and weaknesses can lead to better teamwork and project outcomes.
+## Skills for Consulting
+- Christina Chow's top ten skills for consulting highlighted but not detailed in the lecture.
+- Emphasis on communication skills and the ability to adapt based on personality assessments like DISC.
+- Importance of analytical skills and familiarity with research methodologies like SWOT analysis.
 
-## Client Interaction
-- Preparation for the first kickoff meeting with the client is critical.
-- Understanding the client's business and challenges through research prior to meetings.
-- Flexibility in scheduling and meeting arrangements is necessary due to varying availabilities.
+## Client Engagement
+- Discussion on engaging with clients, including setting up kickoff meetings and preparing deliverables like team contracts and scope of work.
+- Importance of time management and meeting deadlines.
 
-## Assignments and Deliverables
-- Team contract, journal assignment, non-disclosure agreement, and scope of work are mentioned as key deliverables.
-- Importance of meeting deadlines and managing time effectively.
+## Team Contracts
+- Teams are encouraged to develop contracts outlining member expectations and consequences for non-participation.
+
+## Client Projects
+- Overview of client projects from companies like Fastenal, Black Rapids Beer, and Canada Post.
+- Each team assigned different clients and challenges.
+
+## Deliverables and Timeline
+- Outline of deliverables including team contracts, journal assignments, non-disclosure agreements, and scope of work.
+- Timeline for client touchpoints and presentations.
+
+## Reflection and Journal Assignment
+- Introduction of a journal assignment to reflect on client relations, teamwork, and next steps.
+- Encouragement to start researching clients and challenges ahead of kickoff meetings.
 
 ## Conclusion
-- Emphasis on self-care and maintaining a professional image.
-- Upcoming client meetings and project assignments were discussed.
-- Encouragement for students to engage with the material and participate actively in their teams.
+- Reminder of the importance of professionalism, preparation, and teamwork.
+- Encouragement to start preparing for client projects and to utilize the course to build valuable skills for consulting.
 
----
-
-**Important Points:**
-- **Professionalism and preparation** are key to success in consulting.
-- **Communication skills** are vital for effective client interaction and team collaboration.
-- **Analytical skills and creativity** are essential for proposing innovative solutions.
-- **Flexibility and time management** are necessary for meeting client needs and project deadlines.
-- **Trust and honesty** in client relationships lead to long-term success.
+## Additional Notes
+- Discussion on the importance of creativity and staying updated with industry trends.
+- Mention of potential guest speakers to provide insights into consulting and industry challenges.
+- Reminder of the importance of self-care and managing workload effectively.
