@@ -9,6 +9,7 @@ def transcribe(fileName):
     logger.info(f"Transcribing {getMp3(fileName)}")
     model = whisper.load_model("base")
     result = model.transcribe(getMp3(fileName))
+    result = result["text"]
     transcriptionPath = getTranscription(fileName)
     with open(transcriptionPath, "w") as f:
         f.write(str(result))

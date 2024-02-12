@@ -15,9 +15,19 @@ def isTranscribed(fileName):
     logger.debug(f"{transcriptionFilePath} exists: {exists}")
     return exists
 
+def hasNotes(fileName):
+    notesFile = getNotes(fileName)
+    exists = os.path.exists(notesFile)
+    logger.debug(f"{notesFile} exists: {exists}")
+    return exists
+
 def getTranscription(fileName):
     transcriptionFilePath = os.path.join("transcription", fileName + ".txt")
     return transcriptionFilePath
+
+def getNotes(fileName):
+    notePath = os.path.join("notes", fileName + ".md")
+    return notePath
 
 def getMp3(fileName):
     audioFilePath = os.path.join("audio", fileName + ".mp3") 
