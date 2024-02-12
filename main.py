@@ -1,7 +1,8 @@
+from src.llm import createNotes
 from src.logger import get_logger
 from src.gdrive import download_file, list_files
 from src.transcriber import transcribe
-from src.utils import cleanFileName, isDownloaded, isMp3File, isTranscribed
+from src.utils import cleanFileName, hasNotes, isDownloaded, isMp3File, isTranscribed
 
 
 logger = get_logger()
@@ -15,10 +16,13 @@ def main():
             logger.debug(f"Checking {fileName}")
             if not isTranscribed(fileName):
                 if not isDownloaded(fileName):
-                    logger.debug(f"Downloading {fileName}")
+                    logger.info(f"Downloading {fileName}")
                     download_file(file["id"], fileName)
                 transcribe(fileName)
-            exit()
+            if not hasNotes(fileName):
+                logger.info(f"Creating notes for {fileName}")
+                createNotes(fileName)
+                exit()
 
 if __name__ == "__main__":
     main()
