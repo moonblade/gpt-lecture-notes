@@ -11,7 +11,7 @@ from src.utils import getNotes, getTranscription
 def getText(aiMessage):
     return aiMessage.content
 
-def getLLM(temperature=0.1):
+def getLLM(temperature=0.4):
     with open("secrets/openai-apikey", "r") as f:
         openai_api_key = f.read().strip()
     with open("secrets/openai-orgId", "r") as f:
@@ -19,7 +19,7 @@ def getLLM(temperature=0.1):
     return ChatOpenAI(openai_api_key=openai_api_key,
             openai_organization=openai_orgId,
             temperature=temperature,
-            model="gpt-4-turbo-preview")
+            model="gpt-3.5-turbo")
 
 def createNotes(fileName):
     prompt = ChatPromptTemplate.from_messages([
