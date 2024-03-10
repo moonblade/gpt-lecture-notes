@@ -5,7 +5,7 @@ init:
 	-mkdir notes
 
 run:
-	time python3 main.py
+	source env/bin/activate; time python3 main.py
 
 requirements:
 	python3 -m pip install -r requirements.txt
