@@ -9,7 +9,7 @@ Highlighting Important Concepts: Bold or italicize terms, definitions, and impor
 
 Examples and Illustrations: Wherever the lecture includes examples or specific illustrations to explain concepts, include these in a clear and concise manner.
 
-Summaries and Conclusions: At the end of each section, provide a brief summary or conclusion that encapsulates the main ideas or findings discussed.
+Summaries and Conclusions: At the end of each lecture, provide a brief summary or conclusion that encapsulates the main ideas or findings discussed.
 
 Questions and Action Items: If the lecture poses any questions for contemplation or suggests action items, list these at the end of the notes for further study or exploration.
 

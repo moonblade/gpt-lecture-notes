@@ -11,7 +11,7 @@ from src.utils import getNotes, getTranscription
 def getText(aiMessage):
     return aiMessage.content
 
-def getLLM(temperature=0.4):
+def getLLM(temperature=0.1):
     with open("secrets/openai-apikey", "r") as f:
         openai_api_key = f.read().strip()
     with open("secrets/openai-orgId", "r") as f:
